@@ -7,15 +7,6 @@
 renv/library/
 renv/staging/
 
-# data (avoid uploading large/sensitive data)
-data/raw/
-*.csv
-*.rds
-
-# outputs
-results/
-output/
-
 # OS files
 .DS_Store
 

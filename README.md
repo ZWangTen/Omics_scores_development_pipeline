@@ -27,7 +27,7 @@ This pipeline is designed for analyzing high-dimensional biological data (e.g., 
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/ZWangTen/Omics_scores_development_pipeline.git
 cd YOUR_REPO
 ```
 
