@@ -73,7 +73,7 @@ Modify parameters in `_targets.R`:
 ## 👤 Author
 
 Ziqing (Leslie) Wang  
-GitHub: https://github.com/YOUR_HANDLE
+GitHub: https://github.com/ZWangTen
 
 ## 📄 License
 
