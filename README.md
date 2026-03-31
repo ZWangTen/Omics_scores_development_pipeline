@@ -1,8 +1,8 @@
-# 📊 Multi-Omics Elastic Net Pipeline (R + targets)
+# Multi-Omics Elastic Net Pipeline (R + targets)
 
 A reproducible and scalable R pipeline for **high-dimensional omics data preprocessing, feature selection, and risk score construction using elastic net. Built with the [`targets`](https://docs.ropensci.org/targets/) framework for workflow management, this pipeline supports **data quality control, normalization, imputation, feature filtering, and model selection** in a fully reproducible manner.
 
-## 🚀 Overview
+## Overview
 
 This pipeline is designed for analyzing high-dimensional biological data (e.g., metabolomics, proteomics, methylation), integrating phenotype data, and identifying predictive features associated with clinical outcomes.
 
@@ -15,7 +15,7 @@ This pipeline is designed for analyzing high-dimensional biological data (e.g., 
 - Elastic net model with hyperparameter tuning  
 - Modular, scalable, and easy to extend  
 
-## 🧬 Workflow
+## Workflow
 
 1. Data Input  
 2. Quality Control  
@@ -24,7 +24,7 @@ This pipeline is designed for analyzing high-dimensional biological data (e.g., 
 5. Modeling (Elastic Net)  
 6. Output generation  
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/ZWangTen/Omics_scores_development_pipeline.git
@@ -35,7 +35,7 @@ cd YOUR_REPO
 install.packages(c("targets", "tidyverse", "glmnet"))
 ```
 
-## ▶️ Usage
+## Usage
 
 ```r
 library(targets)
@@ -45,7 +45,7 @@ tar_make()
 - Check `Example_run_pipeline.R` for example codes running the pipeline.
 - Check `Helper_Functions_Documentation.docx` for function and arguments usage.
  
-## 🔧 Configuration
+## Configuration
 
 Modify parameters in `_targets.R`:
 
@@ -54,27 +54,27 @@ Modify parameters in `_targets.R`:
 - run_IMP (imputation)
 - alpha values
 
-## 📥 Input
+## Input
 
 - data.csv: feature matrix with `id`
 - pheno.csv: phenotype + covariates
 
-## 📤 Output
+## Output
 
 - check_results.csv
 - Selected_features.csv
 
-## 🧠 Methods
+## Methods
 
 - Rank normalization
 - Half-minimum imputation
 - Elastic net (glmnet)
 
-## 👤 Author
+## Author
 
 Ziqing (Leslie) Wang  
 GitHub: https://github.com/ZWangTen
 
-## 📄 License
+## License
 
 MIT License
